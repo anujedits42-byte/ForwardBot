@@ -18,8 +18,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 main_buttons = [[
         InlineKeyboardButton("🛡️ sᴇssɪᴏɴ ɪɴꜰᴏ", callback_data="about")
         ],[
-          InlineKeyboardButton("🛡️ sᴛᴀꜰꜰ ᴀᴄᴄᴇss", url="https://t.me/Hayato_ku"),
-        InlineKeyboardButton("⚡ ᴄᴏʀᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/DmOwner")
+          InlineKeyboardButton("🛡️ sᴛᴀꜰꜰ ᴀᴄᴄᴇss", url="https://t.me/anujedits76"),
+        InlineKeyboardButton("⚡ ᴄᴏʀᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/anujedits76")
         ],[
         InlineKeyboardButton("💳 ᴅᴏɴᴀᴛᴇ", callback_data='donate')
         ]]
@@ -214,5 +214,5 @@ async def server_status(bot, query):
 @Client.on_message(filters.private & filters.command(['donate']))
 async def restart(client, message):
     msg = await message.reply_text(
-        text="<i>__If you liked my service❤__.\n\nConsider and make a donation to support my developer 👦\n\n\nID - `@DmOwner`</i>"
+        text="<i>__If you liked my service❤__.\n\nConsider and make a donation to support my developer 👦\n\n\nID - `@anujedits76`</i>"
         )

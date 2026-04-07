@@ -1,6 +1,6 @@
 
 {
-  "name": "AutoForwardX",
+  "name": "encoding_ak_bot",
   "description": "Telegram's Best Smart Plugin File Forward Bot",
   "stack": "container",
   "keywords": [
@@ -10,8 +10,8 @@
     "forward",
     "bot"
   ],
-  "success_url": "https://t.me/DmOwner",
-  "repository": "https://github.com/LastPerson07/ForwardBot",
+  "success_url": "https://t.me/anujedits76",
+  "repository": "https://github.com/anujedits42-byte/ForwardBot",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGSBot",

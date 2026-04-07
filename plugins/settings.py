@@ -223,13 +223,13 @@ async def settings_query(bot, query):
      buttons.append([InlineKeyboardButton('↩ Back', 
                       callback_data="settings#main")])
      await query.message.edit_text(
-        "<b><u>CUSTOM BUTTON</b></u>\n\n<b>You can set a inline button to messages.</b>\n\n<b><u>FORMAT:</b></u>\n`[Forward bot][buttonurl:https://t.me/DmOwner]`\n",
+        "<b><u>CUSTOM BUTTON</b></u>\n\n<b>You can set a inline button to messages.</b>\n\n<b><u>FORMAT:</b></u>\n`[Forward bot][buttonurl:https://t.me/anujedits76]`\n",
         reply_markup=InlineKeyboardMarkup(buttons))
   
   elif type=="addbutton":
      await query.message.delete()
      try:
-         txt = await bot.send_message(user_id, text="**Send your custom button.\n\nFORMAT:**\n`[DEV][buttonurl:https://t.me/DmOwner]`\n")
+         txt = await bot.send_message(user_id, text="**Send your custom button.\n\nFORMAT:**\n`[DEV][buttonurl:https://t.me/anujedits76]`\n")
          ask = await bot.listen(chat_id=user_id, timeout=300)
          button = parse_buttons(ask.text.html)
          if not button:

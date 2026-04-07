@@ -4,8 +4,8 @@ from os import environ
 class Config:
     API_ID = environ.get("API_ID", "34446649")
     API_HASH = environ.get("API_HASH", "8dc570c08d8e35e88fb9bfc73c65d7fa")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "8564884831:AAF0ksogvIew4CDv5N8HcSJOq-vkCrrAOHk") 
-    BOT_SESSION = environ.get("BOT_SESSION", "encoding_ak_bot") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "7972923352:AAHbU7f96-9eXkhgJREX8qcYLjGt_mXDx4k") 
+    BOT_SESSION = environ.get("BOT_SESSION", "Arohi_X_bot") 
     
     # FIX: Checks both common names for the MongoDB string
     DATABASE_URI = environ.get("DATABASE_URI", environ.get("DATABASE", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0"))

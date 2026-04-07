@@ -13,7 +13,7 @@ class Translation(object):
 
   DONATE_TXT = """<b><i>If you liked me ❤️. consider make a donation to support my developer 👦
 
-  ID - </i></b><code>@DMOwner</code>"""
+  ID - </i></b><code>@anujedits76</code>"""
 
   HELP_TXT = """<b><u>🔆 ʜᴇʟᴘ</b></u>
 
@@ -48,8 +48,8 @@ class Translation(object):
   ABOUT_TXT = """<b>
 ╔════❰ AutoForwardX ❱═❍⊱❁
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃ʙᴏᴛ : AutoForwardX
-║┣⪼👦ᴄʀᴇᴀᴛᴏʀ : Dhanpal Sharma
+║┣⪼📃ʙᴏᴛ : AutoForward
+║┣⪼👦ᴄʀᴇᴀᴛᴏʀ : 𝐀𝐍𝐔𝐉 𝐊𝐔𝐌𝐀𝐑
 ║┣⪼📡ʜᴏsᴛᴇᴅ ᴏɴ : VPS
 ║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ3
 ║┣⪼📚ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
